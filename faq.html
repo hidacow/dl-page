@@ -1,24 +1,22 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <title>iVIPMusic</title>
+        <title>组件缺失解决方法</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="iVIPMusic" />
-        <meta name="keywords" content="Music, Download" />
-        <meta name="author" content="Hao" />
+        <meta name="keywords" content="FAQ" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.ico" />    
-        <link href='css/googlefonts.css' rel='stylesheet' type='text/css'>		
+        <link href='css/googlefonts.css' rel='stylesheet' type='text/css'>		        
         <link rel="stylesheet" type="text/css"  href='style.css' />
 
         <!--[if lt IE 9]>
                 <script src="js/html5.js"></script>            
                 <script src="js/respond.min.js"></script>                   
-        <![endif]-->         
+        <![endif]-->  
     </head>
 
-    <body class="single single-portfolio">
+    <body class="single single-post">
 
         <div class="site-wrapper">   
 
@@ -83,52 +81,38 @@
 
             <div id="content" class="site-content center-relative">
 
-                <div id="portfolio1" class="section portfolio-item-wrapper"> 
-                    <div class="center-relative content-960 portfolio-item-content"> 
+                <article>
+                    <div class="entry-header content-740 center-relative">
+                        <h1 class="entry-title">组件缺失解决方法</h1>               
                         
-                        <div class="entry-content">
-
-                            <div class="content-wrapper relative">                          
-                                <div class="one_half ">
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;曲库有音源音乐试听/下载<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;按音乐文件名直接下载<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;网页链接解析<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;id/mid解析<br>
-                                    ......
-                                </div>
-                                <div class="one_half last ">
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;单曲/歌手/专辑/歌单/MV解析<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;榜单解析<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;数字专辑福利视频解锁<br>
-                                    ☑&nbsp;&nbsp;&nbsp;&nbsp;账户收藏单曲/专辑/歌单解析<br>
-                                    ......
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <!--div class="full-portfolio-width center-relative">
-                                <img src="images/item_img_01.jpg" alt="" />
-                            </div-->
-
-                            <div class="content-wrapper">
-                                <div class="two_third ">
-                                    最新版本:1.1.0  最后更新20200807<br>
-                                    支持系统：Windows7+   <a href="faq.html" class="no-scroll">组件缺失？点我</a><br>
-                                    <br>
-                                    [NEW]QQ音乐绿钻周卡仅售1.88元!点击[绿钻特惠]查看
-                                </div>
-                                <div class="one_third last ">
-                                    <div class="text-left">
-                                        <a href="https://music.ivip.tech/releases/iVIPMusic(1.1.0).exe" target="_self" class="button  scroll">下载</a>
-                                        <a href="releases/iVIPMusic(1.1.0).exe" target="_self" class="button  scroll">镜像</a>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-
-                        </div>
-                        <div class="clear"></div>
                     </div>
-                </div>
+                    <div class="entry-content">
+                        <div class="content-740 center-relative">                            
+                            <p>
+                                部分电脑运行程序时会跳出XXX组件未注册错误，下面给出一些可能的解决方法
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                1.&nbsp;&nbsp;缺失msvbvm60.dll,mscomctl.ocx,comdlg32.ocx,comdlg32.ocx等<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;推荐搜索"微软常用运行库合集"下载选择完整安装即可
+                                &nbsp;&nbsp;&nbsp;&nbsp;也可以网上下载组件后通过regsvr32命令手动注册组件
+                            </p>
+                            <p>
+                                2.&nbsp;&nbsp;缺失fm20.dll<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;首先推荐安装Microsoft Office确定可以使用VBA相关功能<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;如仍无法解决，尝试搜索"ActiveX Control Pad"安装后再运行程序<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;最佳方案还是安装VB6的IDE环境（非精简版）
+                            </p>
+                            <p>
+                                3.&nbsp;&nbsp;缺失wmp.dll<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;请在可选功能中打开或安装Windows Media Player<br>
+                            </p>
+                        </div>
+                    </div>                   
+                    <div class="clear"></div>
+                </article>
+
+                
             </div>
 
 
